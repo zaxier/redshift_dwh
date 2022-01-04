@@ -1,3 +1,6 @@
+"""
+Loads data from S3 into staging tables on Redshift and then processes """
+
 import configparser
 import psycopg2
 from sql_queries import copy_table_queries, insert_table_queries

@@ -1,3 +1,7 @@
+"""
+Script to create fact and dimension tables for star schema in Redshift.
+"""
+
 import configparser
 import psycopg2
 from sql_queries import create_table_queries, drop_table_queries
